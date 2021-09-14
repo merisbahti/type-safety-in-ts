@@ -222,7 +222,7 @@ const myFunction = (input: unknown) => {
 ### Finishing up, fixing the original code.
 
 ```typescript
-import * as io from 'io-ts
+import * as io from 'io-ts'
 
 const shout = (input: string): string => input + '!';
 
